@@ -1,0 +1,152 @@
+* {
+  margin: 0;
+  padding: 0;
+  font-family: 'JetBrains Mono', sans-serif;
+  background-color: #efebe8;
+}
+
+.navbar div ul{
+  width: 100%;
+  align-items: center;
+  display: flex;
+  text-align: center;
+  margin-top: 1rem;
+}
+
+.navbar ul li {
+  margin: 1rem;
+  list-style: none;
+  display: inline-block;
+  margin-right: 2rem;
+  text-align: center;
+}
+
+.navbar ul li a {
+  text-decoration: none;
+  color: #000;
+  font-size: 14px;
+  margin-left: 0.5rem;
+  margin-right: 0.5rem;
+}
+
+.navbar ul li a:hover {
+  color: #ff5ea2;
+}
+
+.navbar div ul li h2 {
+  margin-left: 0.5rem;
+  margin-right: 30rem;
+}
+
+.scrolling {
+  margin: 1rem;
+
+}
+
+.scrolling {
+  transition: translateX(50%);
+  font-size: 1.5rem;
+}
+
+
+
+.row {
+  justify-content: space-around;
+  align-items: center;
+  margin: 100px 0;
+  display: flex;
+}
+
+.r1 {
+  flex-basis: 40%;
+  position: relative;
+  margin-left: 50px;
+}
+
+.r1 h2 {
+  font-size: 54px;
+}
+
+
+
+.r1 p {
+  font-size: 16px;
+  color: #b7b7b7;
+  font-weight: 100;
+}
+
+
+.r1::after {
+  content: "";
+  width: 10px;
+  height: 57%;
+  background: linear-gradient(to right, #ff469f, #ff6062);
+  position: absolute;
+  left: -40px;
+  top: 8px;
+}
+
+.courses{
+  margin-left: 5rem;
+}
+.courses h1 {
+  font-size: 54px;
+}
+
+.courses ol li {
+  font-size: 16px;
+  color: #b7b7b7;
+  font-weight: 100;
+
+}
+
+
+.wth {
+  justify-content: space-around;
+  align-items: center;
+  margin: 100px 0;
+  display: flex;
+}
+
+.fame {
+  flex-basis: 40%;
+  position: relative;
+  margin-left: 50px;
+}
+
+.fame h2 {
+  font-size: 54px;
+}
+
+
+.fame::after {
+  content: "";
+  width: 10px;
+  height: 57%;
+  background: linear-gradient(to right, #ff469f, #ff6062);
+  position: absolute;
+  left: -40px;
+  top: 8px;
+}
+
+.fame table, th, td{
+  border: 1px solid #ff5ea2;
+  border-collapse: collapse;
+  font-size: 14px;
+  color: #707070;
+  padding: 15px;
+
+}
+
+.r2 {
+  position: relative;
+  flex-basis: 60%;
+  display: flex;
+  align-items: center;
+}
+
+.r2 img {
+  width: 80%;
+  margin-left: 100px;
+}
+
